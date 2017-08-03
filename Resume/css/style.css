@@ -1,0 +1,299 @@
+                                        /*Containers & Wrappers*/
+:not(body){
+  transition: all 1s;
+}
+body {
+  letter-spacing: .5px;
+}
+
+.wrapper {
+  width: 100%;
+}
+.intro-container {
+  width: 100%;
+  min-height: 100vh;
+}
+.container-background {
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cont-personal-statement p {
+  text-align: center;
+  max-width: 400px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.container-ninety {
+  width: 100%;
+  display: flex;
+}
+.cont-skills-tools, .cont-contact
+{
+  width: 90%;
+  margin:1em 5% 1em 5%;
+}
+
+.container-ninety {
+  color: #fff;
+}
+.school-container {
+  margin: 0;
+  width: 100%;
+}
+/*FlexBox Properties*/
+.intro-container,
+.cont-personal-statement,
+.container-ninety, .flex-container, .flex-name, .flex-email, .flex-message,
+.why-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container, .container, .flex-name, .flex-email, .flex-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-skills-tools {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+}
+.skills, .tools {
+  display: flex;
+  flex-direction: row;
+}
+.skills-title, .tools-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.flex-submit {
+  margin-top: .5em;
+  align-self: center;
+}
+
+                                                /*STYLES*/
+body {
+  font-family: 'Open Sans', sans-serif;  font-weight: 300;
+  color: #3e3e3e;
+}
+.heading-styles {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .1em;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.intro-name {
+  margin-top: 0px;
+  color: white;
+  font-size: 3em;
+}
+.intro-resume {
+  font-size: 2em;
+  color: white;
+  margin-top: 0px;
+}
+.intro-shadow {
+  text-shadow: 2px 3px 1px hsla(140, 3%, 26%, .6);
+}
+.cont-personal-statement {
+  margin: 3em auto;
+}
+#profile-photo {
+  width: 40%;
+  max-width: 250px;
+  border-radius: 40px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-styles {
+  text-shadow: 2px 3px 3px hsla(140, 3%, 26%, .9);
+}
+.program-details {
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.school {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.course {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 90%;
+}
+.remove-border {
+  border-bottom: none;
+}
+.place, .title {
+  margin: 0 1em;
+}
+.year {
+  font-style: italic;
+}
+#tools-padding {
+  margin-bottom: 3em;
+}
+ul {
+  list-style-type: none;
+}
+.skills ul, .tools-title ul {
+  padding-left: 0px;
+}
+.bar-styles {
+  padding: 1px 10px;
+  min-width: 175px;
+  margin: 10px auto;
+}
+.why-me {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.flex-container, .flex-name, .flex-email, .flex-message {
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.flex-submit {
+  margin-top: .5em;
+  align-self: center;
+}
+label {
+  font-size: 1.3em;
+  align-self: center;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+input {
+  color: black;
+  height: 2.5em;
+}
+
+.submit {
+  font-size: 1em;
+  margin: 1em 0px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+}                                   /*PROGRESS BAR STYLES*/
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  width: 150px;
+  max-width: 220px;
+  margin: 6px auto;
+
+}
+                                                /*PROGRESS BAR CONTAINER*/
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25) inset;
+}
+                                                        /*BAR*/
+progress[value]::-webkit-progress-value {
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2px;
+}
+/*Media Queries*/
+
+@media only screen and (min-width: 660px)
+                   and (orientation: landscape) {
+      /* Tablet */
+  .flex-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container {
+    flex-direction: row;
+  }
+
+  .container-ninety, .container-background, .flex-skills-tools {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container-ninety {
+        max-width: 1025px;
+
+  }
+  .flex-name, .flex-email, .flex-message {
+    flex-direction: row;
+  }
+  .cont-personal-statement {
+    width: 90%;
+    max-width: 1040px;
+  }
+  .school {
+    display: inline-block;
+    width: 25%;
+    float: left;
+  }
+  .course {
+    width: 60%;
+    display: inline-block;
+    float: right;
+  }
+  #tools-padding {
+    width: 200px;
+    padding-bottom: 3em;
+  }
+  progress[value] {
+    width: 220px;
+  }
+  .place {
+    flex: .5;
+  }
+  .title {
+    flex: 1;
+  }
+  label, input {
+    align-self: flex-start;
+    margin: 1em auto;
+  }
+  label {
+    min-width: 7em;
+  }
+  input, textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+  .flex-submit {
+    margin-top: .5em;
+    align-self: flex-end;
+  }
+  .cont-contact {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-container, .container {
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+      .flex-skills-tools {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 60vh;
+        align-content: center;
+    }
+}

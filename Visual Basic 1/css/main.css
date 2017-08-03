@@ -1,0 +1,82 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #4b6cb7;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(left, #182848, #4b6cb7);
+    background: -moz-linear-gradient(left, #182848, #4b6cb7);
+    background: -o-linear-gradient(left, #182848, #4b6cb7);
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+.container {
+    width: 85%;
+    max-width: 978px;
+    background-color: white;
+    margin: 2em auto;
+    text-align: center;
+    box-shadow: 1px 1px 2px #888;
+}
+form {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.field-container {
+    display: flex;
+    flex-direction: column;
+}
+label, input {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: .3em;
+}
+select, button {
+    width: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: .3em;
+}
+label {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+input, select, button {
+    box-shadow: 1px 1px 2px #888888;
+    font-size: 1.0em;
+}
+.result {
+    padding-bottom: 1em;
+}
+.result-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+button {
+    margin: 0 5px;
+}
+button:hover {
+    font-size: 90%;
+}
+@media screen and (min-width: 728px) {
+    .field-container {
+        flex-direction: row;
+        width: 80%;
+        margin: 1em auto;
+
+
+}
+label {
+    width: 20%;
+}
+input, .select {
+    width: 80%;
+    text-align: left;
+}
+.select {
+    display: flex;
+    margin-left: 0;
+}
+}

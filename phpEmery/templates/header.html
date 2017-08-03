@@ -1,0 +1,66 @@
+<?php
+// Turn on output buffering:
+ob_start();
+?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+<?php // Print the page title
+if (defined('TITLE')) { // Is the title defined?
+  print TITLE;
+} else { // The title is not defined
+  print 'Emery Dee Packer';
+  }
+?>
+  </title>
+  <link rel="stylesheet" type="text/css" href="css/template.css">
+  <script src="https://use.fontawesome.com/c668e908d0.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div id="header-wrapper">
+      <p class="elephants">
+        <img  id="elephant-big" src="images/elephant.png" alt="elephant">
+        <img  id="elephant-med" src="images/elephant.png" alt="elephant">
+        <img  id="elephant-sm" src="images/elephant.png" alt="elephant">
+      </p>
+      <h1><a href="index.php">Emery Dee Packer</a></h1>
+    </div> <!-- header-wrapper -->
+    </div> <!-- header -->
+
+    <div id="wrapper">
+            <ul id="nav">
+                <li><a href="books.php">Books</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="register.php">Register</a></li>
+            </ul>
+        <div id="sidebar">
+            <h2>Blog</h2>
+            <p class="news">
+              <span class="date"><em>6/10/17</em></span><br>
+              Emery is walking, talking (kind of),
+                and getting into everything! She
+                blows kisses, gives kisses, waves,
+                claps, walks, says Mama, Dada,
+                and STOP 🛑. Pretty sure she’s
+                been telling Luna to shut up.
+                “Shup”…<br></p>
+            <p class="news">
+              <span class="date"><em>5/1/17</em></span><br>
+              She also loves it when her daddy
+              reads her books. I can’t believe
+              we’ll have a 1 year old in a few….<br>
+              </p>
+
+                <p id="time"><?php // Print the current date and time...
+                // Set the timezone:
+                date_default_timezone_set('America/Denver');
+                // Now print the date and time:
+                print date('g:i a l F j');
+                ?></p>
+
+        </div> <!-- sidebar -->
+        <div id="content">
+            <!-- BEGIN CHANGEABLE CONTENT. -->
