@@ -1,0 +1,157 @@
+
+body {
+  background-color: #000000;
+  font-family:      arial, verdana, Times, sans-serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+img {
+  height: 400px;
+  width: 100%;
+  border-bottom: groove red 2px;
+}
+
+.mainbody {
+  background: #DDDDDD;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 330px 10px 10px;
+  text-align: left;
+  height: auto;
+  width: auto;
+}
+
+.aboutmain {
+  background: #DDDDDD;
+  font-size: 105%;
+  padding: 15px;
+  margin: 5px 10px 5px 10px;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+#form {
+  margin: 0 auto;
+}
+
+.aboutparagraph {
+  margin: 5px 5px 5px 5px;
+}
+#aboutp {
+  line-height: 150%;
+  text-align: center;
+  margin: 15px 15px 15px 15px;
+}
+
+
+.mainparagraph {
+  text-align: left;
+  line-height: 120%;
+}
+
+
+.mainparagraphkey {
+  text-align: center;
+}
+
+#services {
+  text-align: left;
+  padding-left: 30px;
+}
+
+#services ul li {
+  list-style: none;
+  padding: 3px 3px;
+}
+
+.sidebar {
+  background: #DDD;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+  width: 280px;
+  height: auto;
+  float: right;
+  text-align: center;
+}
+
+.submit {
+  width: 47px;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+#thankyou {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#returnhome {
+  color: white;
+  text-align: center;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #b22222;
+}
+
+a:hover {
+  color: red;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  border-bottom: groove red 1px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.workouttable {
+  width: 70%;
+}
+
+.workouttable {
+  border-collapse: collapse;
+}
+.workouttable td, .workouttable th {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+mark {
+  background-color: #f33;
+}
+
+.workouttable tr:nth-child(even) {
+  background-color: #f33;
+}
